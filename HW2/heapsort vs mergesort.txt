@@ -1,0 +1,29 @@
+mergesort VS heapsort
+
+
+mergesort:
+優點
+很快。即使在最壞的情況下，其運行時間也為O（nlogn）。它也是穩定的。
+
+缺點:
+不在適當的位置，因此會佔用大量內存。它使用與n成正比的額外空間。嘗試對非常大的數據進行排序時，這可能會降低速度。
+
+heapsort:
+優點
+
+1.快速。heapsort以O（n \ lg（n））O（nlg（n））的時間運行，並且隨著nn的增長而擴展。與quicksort不同，沒有最壞情況的O（n ^ 2）O（n
+2
+ ）
+
+
+2.節省空間。heapsort佔用O（1）O（1）空間。這比mergesort的O（n）O（n）更好。
+
+缺點
+
+執行慢。儘管heapsort的漸進複雜性使其看起來比快速排序快，但在實際系統中，heapsort通常較慢。
+
+heapsort	          Complexity
+最慢情形	       :O(n\lg{n})O(nlgn)
+最快情形	       :O(n)O(n)
+平均耗時               :O(n\lg{n})O(nlgn)
+佔用空間	               :O(1)O(1)
